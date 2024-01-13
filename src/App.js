@@ -22,7 +22,14 @@ function App() {
                 <button onClick={increase}>+</button>
                 <button onClick={decrease}>-</button>
             </div>
-            <input type="number" name="" id="" onChange={handleOnchangeInput} value={value} />
+            <input
+                type="number"
+                name=""
+                id=""
+                onFocus={() => setValue('')}
+                onChange={handleOnchangeInput}
+                value={value}
+            />
         </>
     )
 }
