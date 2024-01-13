@@ -17,7 +17,7 @@ function App() {
     return (
         <>
             <h1>나의 첫번째 카운트 앱</h1>
-            {count}
+            <p>{count}</p>
             <div>
                 <button onClick={increase}>+</button>
                 <button onClick={decrease}>-</button>
