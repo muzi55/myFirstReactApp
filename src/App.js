@@ -17,19 +17,11 @@ function App() {
     return (
         <>
             <h1>나의 첫번째 카운트 앱</h1>
-            {count}
             <div>
-                <button onClick={increase}>+</button>
-                <button onClick={decrease}>-</button>
+                <button>+</button>
+                <button>-</button>
             </div>
-            <input
-                type="number"
-                name=""
-                id=""
-                onFocus={() => setValue('')}
-                onChange={handleOnchangeInput}
-                value={value}
-            />
+            <input type="number" name="" id="" />
         </>
     )
 }
